@@ -8,18 +8,18 @@ import time
 
 #Conexão com o DataBase
 mydb = mysql.connector.connect(
-  host="172.17.0.3",
-  user="root",
-  passwd="caseitau",
-  database="twitter"
+  host="##############",
+  user="##############",
+  passwd="############",
+  database="##########"
 )
 mycursor = mydb.cursor()
 	
 #Key / Chaves de autenticação
-consumer_key = '3qflUEPUjbynZ1aeYB0uY6coj'
-consumer_secret = 'NYoobLMgsmqetfvaMt0QpEglqwBrqobyhtVMl03vJOS8bsQX03'
-access_token = '294453565-N101D5Gix7jJYLmk5dX3PAXCFPQG9HXd8I5klHyt'
-access_token_secret = '6h4gLKJTP1zQgFVzyr1YYlWZg4zY1pMByaJlnT9KBw7KM'
+consumer_key = '####################################'
+consumer_secret = '#################################'
+access_token = '####################################'
+access_token_secret = '#############################'
  
 #Autenticação	
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
